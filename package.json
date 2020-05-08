@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node .",
-    "test": "env ENVIRONMENT=test ava ./spec/**/*.spec.js --s", 
+    "test": "env ENVIRONMENT=test ava ./spec/**/*.spec.js --s",
     "test-watch": "env ENVIRONMENT=test ava ./spec/**/*.spec.js --s --watch"
   },
   "author": "",
