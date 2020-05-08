@@ -50,8 +50,8 @@ test('destroyGame() - destroys a game', async t => {
   t.is(game, 1);
 });
 
-test('sendChoices() - formats the games current choices', t => {
-  t.deepEqual(gameService.sendChoices(TEST_GAME), ['▸ *A*','▸ *B*','▸ *C*']);
+test('getChoices() - formats the games current choices', t => {
+  t.deepEqual(gameService.getChoices(TEST_GAME), ['▸ *A*','▸ *B*','▸ *C*']);
 });
 
 test('getCurrentText() - formats the games current text', t => {
